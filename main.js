@@ -59,5 +59,5 @@ let testBlock = new blockChain();
 testBlock.addBlock(new block(1, "3/27/2018", { amount : 4 }));
 testBlock.addBlock(new block(2, "3/27/2018", { amount: 10 }));
 
-console.log('Is BlockChain valid? ' + testBlock.isChainValid());
-// console.log(JSON.stringify(testBlock, null, 4));
+// console.log('Is BlockChain valid? ' + testBlock.isChainValid());
+console.log(JSON.stringify(testBlock, null, 4));
